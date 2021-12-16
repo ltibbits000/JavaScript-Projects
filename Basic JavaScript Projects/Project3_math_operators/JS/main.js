@@ -23,12 +23,12 @@ function division() {
 }
 
 // ++ 
-Var X = 5;
+var X = 5;
 X++;
 document.write(X);
 
 // -- 
-Var Y = 5.25;
+var Y = 5.25;
 Y--;
 document.write(Y);
 
@@ -36,7 +36,7 @@ document.write(Y);
 function remainder() {
     var remainder = 25 % 6;
     document.getElementById("mod").innerHTML = "When you divide 25 by 6 you have a 
-    remainder of: " + remainder;
+    remainder of:  + remainder
 }
 
 
