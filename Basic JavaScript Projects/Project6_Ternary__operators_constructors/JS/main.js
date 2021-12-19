@@ -7,7 +7,7 @@ function Ride_Function() {
 }
 
 //constructor uses
-funtion Vehicle(Make, Model, Year, Color) {
+function Vehicle(Make, Model, Year, Color) {
     this.Vehicle_Make = Make;
     this.Vehicle_Model = Model;
     this.Vehicle_Year = Year;
@@ -15,7 +15,7 @@ funtion Vehicle(Make, Model, Year, Color) {
 }
 
 var Jack = new Vehicle ("Dodge", "Viper", 2020, "Red");
-var Emily = new Vehilce ("Jeep", "Trail Hawk", 2019, "White");
+var Emily = new Vehicle ("Jeep", "Trail Hawk", 2019, "White");
 var Erik = new Vehicle ("Ford", "Pinto", 1971, "Mustard");
 function myFunction() {
     document.getElementById("Keywords_and_Constructors").innerHTML = 
