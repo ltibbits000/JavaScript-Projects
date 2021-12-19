@@ -7,6 +7,7 @@ function Age_Function() {
         Vote = "You are not old enough to vote!";
     }
     document.getElementById("How_old_are_you?").innerHTML = Vote;
+}
 
     //time function
     function Time_function() {
