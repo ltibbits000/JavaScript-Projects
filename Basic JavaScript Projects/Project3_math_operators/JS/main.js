@@ -35,8 +35,8 @@ document.write(Y);
 //%
 function remainder() {
     var remainder = 25 % 6;
-    document.getElementById("mod").innerHTML = "When you divide 25 by 6 you have a 
-    remainder of:  + remainder
+    document.getElementById("mod").innerHTML = "When you divide 25 by 6 you have a remainder of: " + remainder;
+    
 }
 
 
