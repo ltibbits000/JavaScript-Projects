@@ -24,3 +24,29 @@ function Age_Function() {
         }
         document.getElementById("Time_of_day").innerHTML = Reply;
     }
+
+var greeting = "Hello from Global Vairable" //assigning global variable
+
+function helloWorld() {
+    var greeting = "Hello from Local Variable"
+    greeting += "???";
+    document.write(greeting);
+}
+
+greeting += "!!!";
+
+helloWorld();
+document.write("<br/>");
+
+document.write(greeting);
+
+// messed up console.log 
+function Add_numbers_2() {
+    var X = 12;
+    console.log(11 + X);
+}
+function Add_Numbers_3() {
+    console.log(X + 1000);
+}
+Add_numbers_2();
+Add_Numbers_3();
