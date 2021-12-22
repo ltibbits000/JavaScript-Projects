@@ -21,10 +21,10 @@ function cat_pics(){
 }
 
 // while loop
-let count = 1;
-while (count < 10) {
-    console.log(count);
-    count +=2;
+var i = 1;
+while( i <= 10){
+    document.write(i + "<br/>");
+    i++;
 }
 
 //let loop
